@@ -2,7 +2,7 @@
 
 import { NextResponse } from "next/server";
 import connectDB from "@/lib/mongodb";
-import Professor from "@/models/Professor";
+import Professor from "@/models/Prof";
 
 export async function GET() {
   try {
