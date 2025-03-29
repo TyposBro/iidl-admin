@@ -1,6 +1,5 @@
-// home/api/prof/route.ts
+// /api/prof/route
 
-// app/api/prof/route.ts
 import { NextResponse } from "next/server";
 import connectDB from "@/lib/mongodb";
 import Professor from "@/models/Professor";
